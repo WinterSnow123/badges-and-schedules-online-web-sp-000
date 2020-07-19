@@ -17,8 +17,10 @@ rooms_array
 end
 
 def printer(speakers_array)
-  speakers_array.each do |speaker|
-    puts batch_badge_creator(speaker)
-    puts assign_rooms(speaker)
+  batch_badge_creator(speakers_array).each do |speaker|
+    puts speaker
+  end
+  assign_rooms(speakers_array). each do |speaker|
+    puts speaker
   end
 end
