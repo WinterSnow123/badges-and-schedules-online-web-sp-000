@@ -20,7 +20,7 @@ def printer(speakers_array)
   batch_badge_creator(speakers_array).each do |speaker|
     puts speaker
   end
-  assign_rooms(speakers_array). each do |speaker|
+  assign_rooms(speakers_array).each do |speaker|
     puts speaker
   end
 end
